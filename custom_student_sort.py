@@ -55,3 +55,6 @@ if __name__=='__main__':
     s5=Student('csuraj5',20,39,5)
     students.extend([s1,s2,s3,s4,s5])
     print(customsort(students,['name','rollNumber']))
+    
+    
+#####Time Complexity= 0(m*nlogn) where m is no. of criteria given for sorting and n is no. of students######
