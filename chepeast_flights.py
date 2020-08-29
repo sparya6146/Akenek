@@ -24,4 +24,4 @@ if __name__=='__main__':
     print(sorted(CheapestPairs,key=lambda x: x[0]+x[1]))
     
     
-#####Time Complexity= 0(nm+mlogm)=0(m(n+logm))######
+#####Time Complexity= 0(nk+klogk)=0(k(n+logk))######
