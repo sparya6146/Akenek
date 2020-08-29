@@ -22,3 +22,6 @@ if __name__=='__main__':
     mumbai_to_delhi = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75]
     CheapestPairs = kCheapestPairs(delhi_to_mumbai,mumbai_to_delhi,10)
     print(sorted(CheapestPairs,key=lambda x: x[0]+x[1]))
+    
+    
+#####Time Complexity= 0(nm+mlogm)=0(m(n+logm))######
